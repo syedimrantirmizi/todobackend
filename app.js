@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: "*" }));
 
 const uri =
-  "mongodb+srv://syedimrantirmizi:kirozen!!2004@cluster0.qeprygm.mongodb.net/";
+  "mongodb+srv://syedimrantirmizi:r2nFqc86NCHZYI0e@cluster0.ke2xo8c.mongodb.net/";
 mongoose
   .connect(uri)
   .then(() => console.log("Database Connected"))
